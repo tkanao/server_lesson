@@ -1,0 +1,251 @@
+    1  docker stop debian
+    2  docker stop debian
+    3  docker --version
+    4  pwd
+    5  ls
+    6  sudo service docker restart
+    7  exit
+    8  ls -a
+    9  ls /
+   10  ls /usr
+   11  pwd
+   12  cd /root
+   13  pwd
+   14  cd /usr
+   15  pwd
+   16  cd /root
+   17  ls-a
+   18  ls -a
+   19  cd ~
+   20  cd ..
+   21  ls -a
+   22  cd /home
+   23  mkdir test1
+   24  ls
+   25  mkdir test2/test3
+   26  mkdir -p test2/test3
+   27  ls test2
+   28  cd /home
+   29  touch test1/index.php
+   30  ls test1
+   31  cd /home/test1 && ls
+   32  cd /home/test1
+   33  cp index.php copy.php
+   34  ls
+   35  cd /home
+   36  cp -r test1 test4
+   37  ls
+   38  ls test4
+   39  cd /home
+   40  mv test2/test3 test3
+   41  ls
+   42  mv test4 test1_copy
+   43  ls
+   44  ls test1
+   45  rm test1/copy.php
+   46  ls test1
+   47  ls
+   48  rm -r test3
+   49  ls
+   50  rm test1_copy/*.php
+   51  ls test1_copy
+   52  ls
+   53  cd test1
+   54  ls
+   55  cd /home
+   56  echo '# Hello World' > README.md
+   57  cat README.md
+   58  echo '# Server Lesson' > README.md
+   59  echo 'Linux Practice' >> README.md
+   60  echo '--------------' >> README.md
+   61  cat README.md
+   62  apt update -y && apt install -y vim
+   63  cd /home
+   64  vi README.md
+   65  vi README.md
+   66  cd /root
+   67  mkdir server_lesson && cd server_lesson
+   68  git -v
+   69  apt update -y && apt install -y git
+   70  git -v
+   71  git init
+   72  touch first/txt
+   73  touch first.txt
+   74  git add .
+   75  git commit -m 'first commit'
+   76  git branch -M main
+   77  git branch
+   78  git remote add origin https://github.com/tkanao/server_lesson.git
+   79  git push -u origin main
+   80  git branch
+   81  git branch -a
+   82  git status
+   83  git add .
+   84  git commit -m "first commit"
+   85  git branch -M main
+   86  git branch
+   87  git config --global taisuke.november@gmail.com
+   88  git config --global user.email "taisuke.november@gmail.com"
+   89  git config --global user.name "tkanao"
+   90  git commit -m "first commit"
+   91  git branch -M main
+   92  git branch
+   93  git remote add origin https://github.com/tkanao/server_lesson.git
+   94  git push -u origin main
+   95  git push origin main
+   96  git push origin main
+   97  git push origin main
+   98  git push origin main
+   99  git checkout -b working
+  100  git branch
+  101  ls
+  102  ped
+  103  pwd
+  104  mkdir linux_practice1
+  105  cd linux_practice1
+  106  mkdir public
+  107  cd public
+  108  touch index.php
+  109  ls
+  110  cp index.php index_bk.php
+  111  cd .
+  112  cd ../
+  113  ls
+  114  cp -r public/ tmp/
+  115  cd tmp/
+  116  ls -a
+  117  rm index_bk.php
+  118  ls
+  119  cd /server_lesson
+  120  cd ../
+  121  cd ../
+  122  cd ../
+  123  cd ../
+  124  cd ../
+  125  cd ../
+  126  cd server_lesson
+  127  cd /server_lesson
+  128  ls
+  129  cd root/server_lesson/
+  130  touch README.md
+  131  vi README.md 
+  132  git add linux_practice1/
+  133  git status
+  134  ls
+  135  git add README.md, first.txt 
+  136  git add README.md
+  137  git add first.txt 
+  138  git status
+  139  docker stop debian'
+  140  ;
+  141  :wq
+  142  q
+  143  '
+  144  git status
+  145  docker stop debian
+  146  git status''
+  147  git commit -m 'practice1'
+  148  git push origin main
+  149  git push origin working
+  150  docker stop debian
+  151  docker start debian
+  152  docker exec -it debian bash
+  153  docker ps
+  154  docker images
+  155  docker pull debian:latest
+  156  docker run -it -d --name debian debian:latest
+  157   docker exec -it debian bash
+  158  exit
+  159  ls
+  160  cd server_lesson
+  161  cd home/
+  162  ls
+  163  cd /root
+  164  cd server_lesson/
+  165  ls
+  166  cd README.md 
+  167  vi README.md 
+  168  ls -a
+  169  git status
+  170  git add README.md 
+  171  git commit -m .git README.md first.txt linux_practice1 
+  172  git status
+  173  ls
+  174  mkdir linux_practice2
+  175  cd linux_practice2
+  176  mkdir documents
+  177  cd documents/
+  178  touch qizumo-{01..50}.txt
+  179  ls
+  180  cd ../
+  181  mkdir trash
+  182  rm documents/gizumo-{20..40} trash/.
+  183  cd documents/
+  184  cd ../
+  185  mv documents/gizumo-{20..40} trash/.
+  186  ls
+  187  mv documents/gizumo-{20..40}.txt trash/.
+  188  cd documents/
+  189  mv qizumo-{20..40}.txt gizumo{20..40}.txt
+  190  ls
+  191  mv qizumo-{01..50}.txt gizumo{01..50}.txt
+  192  mv qizumo-01.txt gizumo01.txt
+  193  ls
+  194  rename -s qizumo- gizumo
+  195  brew install rename
+  196  rename -s qizumo- gizumo
+  197  cd ../
+  198  ls
+  199  rm documents/
+  200  rm -r documents/
+  201  ls
+  202  mkdir documents
+  203  touch gizumo{01..50}
+  204  ls
+  205  rm gizumo{01..50}
+  206  ls
+  207  cd documents
+  208  touch gizumo{01..50}
+  209  ls
+  210  cd ../
+  211  rm documents/gizumo{20..40} trash/
+  212  mv documents/gizumo{20..40} trash/
+  213  cd documents/
+  214  mv gizumo{20..40} trash/
+  215  mv gizumo{20..40} ../trash/
+  216  ls
+  217  cd ../trash/
+  218  ls
+  219  cd ../
+  220  rm -r documents/
+  221  mkdir documents
+  222  cd documents/
+  223  touch gizumo{01..50}
+  224  ls
+  225  mv gizumo{20..40} ../trash/
+  226  ls
+  227  cd ../trash/
+  228  ls
+  229  cd ../ && touch .gitignore
+  230  vim .gitignore 
+  231  cd ../
+  232  rm -r linux_practice2
+  233  mkdir linux_practice2
+  234  cd linux_practice2 && mkdir documents, trash
+  235  ls
+  236  mv documents, document
+  237  ls
+  238  mv documents, documents
+  239  mv document documents
+  240  ls
+  241  cd documents/ && touch gizumo{01..50}.md
+  242  ls
+  243  mv gizumo{20..40}.md ../trash/ && cd trash &&ls
+  244  ls
+  245  cd ../trash/ && ls
+  246  cd ../ touch .gitignore
+  247  cd ../ && touch .gitignore
+  248  vim .gitignore 
+  249  touch exec_command.log
+  250  history 300
+  251  history 300 >> exec_command.log
