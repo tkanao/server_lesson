@@ -1,7 +1,7 @@
 # このセクションで学んだコード
 - ls
--- ls -a 
--- ls -l
+ - ls -a 
+ - ls -l
 - pwd
 - cd 'path'
 - mkdir
